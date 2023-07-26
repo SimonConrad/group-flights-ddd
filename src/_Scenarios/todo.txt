@@ -1,0 +1,10 @@
+- poczytanie dokładnie kodu
+
+- podebugowanie scenarios z zaczajeniem sie na handlery eventów
+
+- analiza jak zaciagane są relacje encji reprezentującej agregagt w repozytoriach i jak są dla nich zrobione konfiguracje mappingu obiekt-tabela 
+    - include bez virtual chyba, chodzi o zaciągnięcie agregagtu jako całosći
+    - jak następuje ich aktulizacja
+    - poptrzec tez na podejscia na modularny monolit i solid webapi; 
+    - w ddd to tabela chage-request i jej relacje
+    - alternatywa to josnowa kolumna
