@@ -1,10 +1,10 @@
-﻿POST https://localhost:7055/sales/reservations/9daa69f0-b815-45f2-afae-8e17c2e096cb/passengers
+﻿POST https://localhost:7055/sales/reservations/a80f0eb6-8a55-48dd-a359-2431be0533fc/passengers
 accept: */*
 Content-Type: application/json
 X-UserId: 91d65b42-1d29-4e0e-87a9-f723106257de
 
 {
-  "reservationId": "13253422-8c99-4957-bac2-d502aecd02d4",
+  "reservationId": "a80f0eb6-8a55-48dd-a359-2431be0533fc",
   "passengers": [
     {
       "firstname": "Jan",
