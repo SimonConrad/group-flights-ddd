@@ -48,7 +48,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Scenarios", "src\_Scenarios", "{CF043549-DDCE-4DF8-88E3-F8DC2B65DF8F}"
 	ProjectSection(SolutionItems) = preProject
 		_Scenarios\ExampleUser.txt = src\_Scenarios\ExampleUser.txt
-		src\_Scenarios\todo.txt = src\_Scenarios\todo.txt
+		src\_Scenarios\codebase-analysis.md = src\_Scenarios\codebase-analysis.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inquiries", "src\Inquiries", "{2B3A8B75-48F2-442A-BB30-BBA9AC8B68D0}"
