@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroupFlights.Postsale.Infrastructure.Data.EF.Configs;
 
+// tabela ReservationSnapshots
 internal class ReservationToChangeConfig : IEntityTypeConfiguration<ReservationToChange>
 {
     public void Configure(EntityTypeBuilder<ReservationToChange> builder)
@@ -28,6 +29,7 @@ internal class ReservationToChangeConfig : IEntityTypeConfiguration<ReservationT
                 c.Navigation(x => x.RefundableCost).IsRequired();
             }).Navigation(x => x.CurrentCost).IsRequired();
 
+        // tabel ReservationSnapshots_CurrentTravel
         builder.OwnsMany(x => x.CurrentTravel, t =>
         {
             t.OwnsOne(x => x.FlightTime);
@@ -49,6 +51,7 @@ internal class ReservationToChangeConfig : IEntityTypeConfiguration<ReservationT
             t.OwnsOne(x => x.FlightTime);
         });
 
+        // tabela ReservationSnapshots_CurrentPayments
         builder.OwnsMany(x => x.CurrentPayments, p =>
         {
             p.OwnsOne(x => x.Deadline);
