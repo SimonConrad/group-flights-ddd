@@ -1,0 +1,137 @@
+[
+  {
+    "id": "70a41a8c-0e92-4683-ab8b-d535f97ca6e0",
+    "offerNumber": "OFR/1",
+    "source": {
+      "sourceName": "Inquiry",
+      "sourceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    "client": {
+      "userId": "UserId { Value = 91d65b42-1d29-4e0e-87a9-f723106257de }",
+      "name": "Bob",
+      "surname": "Exemplar",
+      "email": "bob@example.com",
+      "phoneNumber": "123-345-567"
+    },
+    "requestedTravel": {
+      "travel": {
+        "date": "2023-11-30T00:00:00",
+        "sourceAirport": {
+          "code": {
+            "value": "WAR"
+          },
+          "city": "Warsaw",
+          "name": "Warsaw Chopin",
+          "country": "Poland"
+        },
+        "targetAirport": {
+          "code": {
+            "value": "BCN"
+          },
+          "city": "Barcelona",
+          "name": "Barcelona Airport",
+          "country": "Spain"
+        }
+      },
+      "return": {
+        "date": "2023-12-12T00:00:00",
+        "sourceAirport": {
+          "code": {
+            "value": "BCN"
+          },
+          "city": "Barcelona",
+          "name": "Barcelona Airport",
+          "country": "Spain"
+        },
+        "targetAirport": {
+          "code": {
+            "value": "WAR"
+          },
+          "city": "Warsaw",
+          "name": "Warsaw Chopin",
+          "country": "Spain"
+        }
+      },
+      "passengers": {
+        "infantCount": 0,
+        "childrenCount": 9,
+        "adultCount": 1
+      },
+      "checkedBaggageRequired": true,
+      "additionalServicesRequired": false,
+      "comments": "W razie braku odpowiedzi na telefon, prosze o kontakt mailowy"
+    },
+    "priorities": [],
+    "variants": [
+      {
+        "airlineType": "Traditional",
+        "travel": [
+          {
+            "date": "2023-11-30T00:00:00",
+            "sourceAirport": {
+              "code": {
+                "value": "WAR"
+              },
+              "city": "Warsaw",
+              "name": "Warsaw Chopin",
+              "country": "Poland"
+            },
+            "targetAirport": {
+              "code": {
+                "value": "BCN"
+              },
+              "city": "Barcelona",
+              "name": "Barcelona Airport",
+              "country": "Spain"
+            },
+            "flightTime": {
+              "hours": 2,
+              "minutes": 45
+            }
+          }
+        ],
+        "return": [
+          {
+            "date": "2023-12-12T00:00:00",
+            "sourceAirport": {
+              "code": {
+                "value": "BCN"
+              },
+              "city": "Barcelona",
+              "name": "Barcelona Airport",
+              "country": "Spain"
+            },
+            "targetAirport": {
+              "code": {
+                "value": "WAR"
+              },
+              "city": "Warsaw",
+              "name": "Warsaw Chopin",
+              "country": "Poland"
+            },
+            "flightTime": {
+              "hours": 2,
+              "minutes": 30
+            }
+          }
+        ],
+        "airlineOfferId": "OFFER-1",
+        "clientValidTo": "2023-11-30T19:02:54.679Z",
+        "passengerNamesRequiredImmediately": false,
+        "airportChargesAreRefundable": true,
+        "confirmationLink": "http://airlines.pl/confirm/OFFER-1",
+        "cost": {
+          "amount": 4600.0,
+          "currency": "PLN"
+        }
+      }
+    ],
+    "acceptOfferDeadline": {
+      "dueDate": "2023-11-30T19:02:54.679Z",
+      "fullfilled": true,
+      "deadlineId": null
+    },
+    "type": "Offer",
+    "completionStatus": "Accepted"
+  }
+]

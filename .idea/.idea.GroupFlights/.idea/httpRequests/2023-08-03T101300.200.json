@@ -1,0 +1,200 @@
+[
+  {
+    "id": "edacb9e7-ddde-4e9f-91c8-73be921196ed",
+    "sourceOfferId": "70a41a8c-0e92-4683-ab8b-d535f97ca6e0",
+    "type": "Reservation",
+    "status": null,
+    "airlineOfferId": "OFFER-1",
+    "client": {
+      "userId": "91d65b42-1d29-4e0e-87a9-f723106257de",
+      "name": "Bob",
+      "surname": "Exemplar",
+      "email": "bob@example.com",
+      "phoneNumber": "123-345-567"
+    },
+    "airlineType": "Traditional",
+    "airlineName": "LOT",
+    "travel": [
+      {
+        "date": "2023-11-30T00:00:00",
+        "sourceAirport": {
+          "code": {
+            "value": "WAR"
+          },
+          "city": "Warsaw",
+          "name": "Warsaw Chopin",
+          "country": "Poland"
+        },
+        "targetAirport": {
+          "code": {
+            "value": "BCN"
+          },
+          "city": "Barcelona",
+          "name": "Barcelona Airport",
+          "country": "Spain"
+        },
+        "flightTime": {
+          "hours": 2,
+          "minutes": 45
+        }
+      }
+    ],
+    "return": [
+      {
+        "date": "2023-12-12T00:00:00",
+        "sourceAirport": {
+          "code": {
+            "value": "BCN"
+          },
+          "city": "Barcelona",
+          "name": "Barcelona Airport",
+          "country": "Spain"
+        },
+        "targetAirport": {
+          "code": {
+            "value": "WAR"
+          },
+          "city": "Warsaw",
+          "name": "Warsaw Chopin",
+          "country": "Poland"
+        },
+        "flightTime": {
+          "hours": 2,
+          "minutes": 30
+        }
+      }
+    ],
+    "declaredPassengers": {
+      "infantCount": 0,
+      "childrenCount": 9,
+      "adultCount": 1
+    },
+    "passengerNamesRequiredImmediately": false,
+    "passengerNamesDeadline": {
+      "dueDate": "2023-11-16T00:00:00",
+      "fullfilled": true,
+      "deadlineId": null
+    },
+    "providedPassengers": [
+      {
+        "firstname": "Jan",
+        "middlename": "",
+        "surname": "Kowalski",
+        "document": {
+          "type": "ID",
+          "number": "ABC",
+          "series": "123",
+          "expirationDate": "2024-01-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Tomasz",
+        "middlename": "Jan",
+        "surname": "Nowak",
+        "document": {
+          "type": "ID",
+          "number": "DBE",
+          "series": "222",
+          "expirationDate": "2025-01-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Anna",
+        "middlename": "",
+        "surname": "Nowak",
+        "document": {
+          "type": "ID",
+          "number": "DBE",
+          "series": "333",
+          "expirationDate": "2025-01-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Kasia",
+        "middlename": "",
+        "surname": "Kowal",
+        "document": {
+          "type": "ID",
+          "number": "AAC",
+          "series": "111",
+          "expirationDate": "2024-03-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Jacek",
+        "middlename": "",
+        "surname": "Testowy",
+        "document": {
+          "type": "ID",
+          "number": "EEB",
+          "series": "978",
+          "expirationDate": "2024-02-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Krzysztof",
+        "middlename": "",
+        "surname": "Przykladowy",
+        "document": {
+          "type": "ID",
+          "number": "GGA",
+          "series": "443",
+          "expirationDate": "2025-04-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Mateusz",
+        "middlename": "Kazimierz",
+        "surname": "Przypadkowy",
+        "document": {
+          "type": "ID",
+          "number": "RRE",
+          "series": "100",
+          "expirationDate": "2024-07-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Hanna",
+        "middlename": "",
+        "surname": "Przypadkowa",
+        "document": {
+          "type": "ID",
+          "number": "RRC",
+          "series": "220",
+          "expirationDate": "2024-06-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Pawel",
+        "middlename": "",
+        "surname": "Komputerowy",
+        "document": {
+          "type": "ID",
+          "number": "TTE",
+          "series": "001",
+          "expirationDate": "2025-03-01T00:00:00"
+        }
+      },
+      {
+        "firstname": "Henryk",
+        "middlename": "",
+        "surname": "Garncarz",
+        "document": {
+          "type": "ID",
+          "number": "HGW",
+          "series": "123",
+          "expirationDate": "2026-03-01T00:00:00"
+        }
+      }
+    ],
+    "cost": {
+      "amount": 4600.0,
+      "currency": "PLN"
+    },
+    "contractToSign": null,
+    "contractToSignDeadline": null,
+    "markedOverdue": false,
+    "canChangePassengerNames": true,
+    "requiredPayments": null
+  }
+]

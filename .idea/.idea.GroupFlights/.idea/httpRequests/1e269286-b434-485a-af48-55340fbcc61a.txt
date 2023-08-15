@@ -1,0 +1,63 @@
+=======================================
+                 UMOWA
+=======================================
+{
+  "ContractId": "56515bfd-1ec5-4a71-9c3d-8e911eaefeb6",
+  "ContractSignee": {
+    "UserId": {
+      "Value": "91d65b42-1d29-4e0e-87a9-f723106257de"
+    },
+    "Name": "Bob",
+    "Surname": "Exemplar"
+  },
+  "ContractedTravel": {
+    "AirlineName": "LOT",
+    "AirlineOfferId": "OFFER-1",
+    "Travel": [
+      {
+        "Date": "2023-11-30T00:00:00",
+        "SourceAirport": {
+          "Code": {
+            "Value": "WAR"
+          },
+          "City": "Warsaw",
+          "Name": "Warsaw Chopin",
+          "Country": "Poland"
+        },
+        "TargetAirport": {
+          "Code": {
+            "Value": "BCN"
+          },
+          "City": "Barcelona",
+          "Name": "Barcelona Airport",
+          "Country": "Spain"
+        }
+      }
+    ],
+    "Return": [
+      {
+        "Date": "2023-12-12T00:00:00",
+        "SourceAirport": {
+          "Code": {
+            "Value": "BCN"
+          },
+          "City": "Barcelona",
+          "Name": "Barcelona Airport",
+          "Country": "Spain"
+        },
+        "TargetAirport": {
+          "Code": {
+            "Value": "WAR"
+          },
+          "City": "Warsaw",
+          "Name": "Warsaw Chopin",
+          "Country": "Poland"
+        }
+      }
+    ]
+  },
+  "TotalCost": {
+    "Amount": 4600.0,
+    "Currency": "PLN"
+  }
+}

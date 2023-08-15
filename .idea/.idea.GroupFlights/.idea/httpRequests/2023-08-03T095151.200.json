@@ -1,0 +1,45 @@
+[
+  {
+    "id": "756d17b2-b652-4b48-93ed-fdae9dbf83d0",
+    "sourceOfferId": "70a41a8c-0e92-4683-ab8b-d535f97ca6e0",
+    "type": "UnconfirmedReservation",
+    "status": "Unconfirmed",
+    "airlineOfferId": "OFFER-1",
+    "client": {
+      "userId": "91d65b42-1d29-4e0e-87a9-f723106257de",
+      "name": "Bob",
+      "surname": "Exemplar",
+      "email": "bob@example.com",
+      "phoneNumber": "123-345-567"
+    },
+    "airlineType": 0,
+    "airlineName": null,
+    "travel": null,
+    "return": null,
+    "declaredPassengers": {
+      "infantCount": 0,
+      "childrenCount": 9,
+      "adultCount": 1
+    },
+    "passengerNamesRequiredImmediately": false,
+    "passengerNamesDeadline": {
+      "dueDate": "2023-11-16T00:00:00",
+      "fullfilled": null,
+      "deadlineId": null
+    },
+    "providedPassengers": [],
+    "cost": null,
+    "contractToSign": {
+      "contractId": "70746b88-3a80-4892-992c-1a13844efe5f",
+      "fulfilled": null
+    },
+    "contractToSignDeadline": {
+      "dueDate": "2023-08-03T09:51:13.7547822Z",
+      "fullfilled": null,
+      "deadlineId": null
+    },
+    "markedOverdue": false,
+    "canChangePassengerNames": false,
+    "requiredPayments": null
+  }
+]
