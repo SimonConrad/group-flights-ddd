@@ -14,12 +14,12 @@ X-CashierId: 6bb4f4a3-531c-4154-bfe2-67a9e65d8a1f
       "currency": 1
     },
     "changeDeadline": {
-      "dueDate": "2023-06-30"
+      "dueDate": "2023-10-30"
     }
   },
   "newTravel": [
     {
-      "date": "2023-07-02",
+      "date": "2023-11-02",
       "sourceAirport": {
         "code": {
           "value": "WAR"

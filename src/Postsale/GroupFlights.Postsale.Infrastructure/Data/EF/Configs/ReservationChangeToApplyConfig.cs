@@ -9,6 +9,8 @@ internal class ReservationChangeToApplyConfig : IEntityTypeConfiguration<Reserva
     public void Configure(EntityTypeBuilder<ReservationChangeToApply> builder)
     {
         builder.HasKey(x => x.Id);
+        
+        // tabela ChangesToApply_NewTravelSegments
         builder.OwnsOne<TravelChange>("_travelTravelChange", tc =>
         {
             tc.OwnsMany(x => x.NewTravelSegments, t =>
@@ -33,6 +35,7 @@ internal class ReservationChangeToApplyConfig : IEntityTypeConfiguration<Reserva
             });
         });
 
+        
         builder.OwnsOne<ReservationCost>("_costAfterChange",
             c =>
             {
@@ -41,7 +44,7 @@ internal class ReservationChangeToApplyConfig : IEntityTypeConfiguration<Reserva
                     m.Property(x => x.Amount).IsRequired();
                     m.Property(x => x.Currency).IsRequired();
                 });
-                c.Navigation(x => x.TotalCost).IsRequired();
+                c.Navigation(x => x.TotalCost).IsRequired(); 
                 c.OwnsOne(x => x.RefundableCost, m =>
                 {
                     m.Property(x => x.Amount).IsRequired();
@@ -50,6 +53,7 @@ internal class ReservationChangeToApplyConfig : IEntityTypeConfiguration<Reserva
                 c.Navigation(x => x.RefundableCost).IsRequired();
             }).Navigation("_costAfterChange").IsRequired();
 
+        // tabela PaymentDeadlineChange
         builder.OwnsMany<PaymentDeadlineChange>("_paymentDeadlineChanges");
 
         builder.OwnsOne<PassengerNamesDeadlineChange>("_passengerNamesDeadlineChange");
